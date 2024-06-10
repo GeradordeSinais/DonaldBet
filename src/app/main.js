@@ -14,6 +14,7 @@ button.addEventListener('click', function()
 
             setTimeout(function()
             {
+                button.style.animation="smooth 5.5s ease-in";
                 button.classList.remove('validate');
             }, 5250);
 

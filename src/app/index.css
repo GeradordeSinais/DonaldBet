@@ -21,6 +21,12 @@ body
 }
 
 button {
+    -webkit-animation: smooth 0.4s ease-in;
+    -moz-animation: smooth 0.4s ease-in;
+    -o-animation: smooth 0.4s ease-in;
+    -ms-animation: smooth 0.4s ease-in;
+    animation: smooth 0.4s ease-in;
+
   outline: none;
   height: 40px;
   text-align: center;
@@ -85,6 +91,7 @@ button:after {
 {
   font-family: "FontAwesome";
   content: "✔️";
+      animation: smooth 0.4s ease-in;
 }
 
 /* Rotação */
@@ -105,4 +112,9 @@ button:after {
   to {
     transform: rotate(360deg);
   }
+}
+
+@-webkit-keyframes smooth {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
 }
