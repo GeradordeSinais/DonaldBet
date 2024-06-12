@@ -78,12 +78,7 @@ button
 }
 
 
-button:active
-{
-    letter-spacing: 2px;
-}
-
-button:after
+button#gerar:after
 {
     content: "Gerar sinal";
 }
@@ -100,7 +95,7 @@ button:after
     animation: rotating 2s 0.25s linear infinite;
 }
 
-.onclic:after
+.onclic#gerar:after
 {
   content: "";
 }
@@ -121,7 +116,7 @@ button:after
     background: #f9c664;
 }
 
-.validate:after
+.validate#gerar:after
 {
     font-family: japanese2020;
     font-color: black;
