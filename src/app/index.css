@@ -124,6 +124,7 @@ button#gerar:after
     animation: smooth 0.4s ease-in;
 }
 
+
 /* Animação de carregamento */
 @-webkit-keyframes rotating
 {
