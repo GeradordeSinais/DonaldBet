@@ -12,6 +12,7 @@ button.addEventListener('click', function()
         }, 2250);
     }
 
+
     setTimeout(function()
     {
         button.style.animation="smooth 5.5s ease-in";
