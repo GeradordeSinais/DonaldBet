@@ -1,4 +1,4 @@
-const button = document.querySelector('#button');
+const button = document.querySelectorAll("button")[0];
 
 button.addEventListener('click', function()
 {
@@ -20,24 +20,3 @@ button.addEventListener('click', function()
 
 
 })
-
-
-
-$(function() {
-  $( "#button" ).click(function() {
-    $( "#button" ).addClass( "onclic", 1, validate);
-  });
-
-  function validate() {
-    setTimeout(function() {
-      $( "#button" ).removeClass( "onclic" );
-      $( "#button" ).addClass( "validate", 1, callback );
-    }, 1 );
-  }
-    function callback() {
-      setTimeout(function() {
-        $( "#button" ).removeClass( "validate" );
-      }, 1 );
-    }
-  });
-
