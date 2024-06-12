@@ -4,9 +4,14 @@ body
     background-repeat: no-repeat;
 }
 
+@font-face {
+    font-family: japanese2020;
+    src: url(../assets/fonts/JAPANESE_2020.otf);
+}
+
 @charset "UTF-8";
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: japanese2020;
 }
 
 .container {
